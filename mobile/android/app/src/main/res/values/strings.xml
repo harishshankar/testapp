@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sharein</string>
+    <string name="title_activity_main">sharein</string>
+    <string name="package_name">com.sharein.app</string>
+    <string name="custom_url_scheme">com.sharein.app</string>
+</resources>

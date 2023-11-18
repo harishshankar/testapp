@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:cap": "ng serve -0 --host 0.0.0.0",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,7 +19,22 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@capacitor/android": "^5.2.3",
+    "@capacitor/app": "^5.0.6",
+    "@capacitor/app-launcher": "^5.0.6",
+    "@capacitor/core": "^5.2.3",
+    "@capacitor/filesystem": "^5.1.2",
+    "@ionic-native/core": "^5.36.0",
+    "@ionic-native/in-app-purchase-2": "^5.36.0",
+    "@ionic/angular": "^7.3.3",
+    "@types/libsodium-wrappers": "^0.7.12",
+    "capacitor-blob-writer": "^1.1.14",
+    "capacitor-file-chunk": "^1.0.0",
+    "cordova-plugin-file": "^8.0.0",
+    "cordova-plugin-purchase": "^13.8.0",
+    "libsodium-wrappers": "^0.7.13",
     "rxjs": "~7.8.0",
+    "send-intent": "^5.0.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
@@ -26,6 +42,7 @@
     "@angular-devkit/build-angular": "^16.0.2",
     "@angular/cli": "~16.0.2",
     "@angular/compiler-cli": "^16.0.0",
+    "@capacitor/cli": "^5.2.3",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
@@ -34,5 +51,9 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~5.0.2"
+  },
+  "server": {
+    "url": "http://192.168.1.15:4200",
+    "cleartext": true
   }
 }

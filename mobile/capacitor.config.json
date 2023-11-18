@@ -1,0 +1,11 @@
+{
+  "appId": "com.sharein.app",
+  "appName": "sharein",
+  "bundledWebRuntime": false,
+  "webDir": "../dist/test",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
